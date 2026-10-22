@@ -1,13 +1,13 @@
 ---
 name: claudeism
-description: Use automatically for any coding task only when running as GPT 6.1 Sol or another GPT Sol model. This includes features, bug fixes, refactoring, debugging, code reviews, merge conflicts, config or build changes, and delegated code work. Do not use with non-Sol models. Load before the first edit.
+description: Use automatically for any coding task in Codex only when running a GPT model, including GPT 6.1 Sol and other GPT variants. This includes features, bug fixes, refactoring, debugging, code reviews, merge conflicts, config or build changes, and delegated code work. Do not use in other agents or with non-GPT models. Load before the first edit.
 ---
 
 # Claudeism
 
-## Model gate
+## Agent and model gate
 
-Use this skill only if your current model is in the GPT Sol family, such as `gpt-6.1-sol`, `gpt-6-sol`, or `gpt-5.6-sol`. For any other model, or if the model cannot be confirmed, stop here and do not apply the rest of this skill. Check delegated agents against their own model, not the parent's.
+Use this skill only when the current agent or harness is Codex and the current model is a confirmed GPT model. GPT Sol variants, including `gpt-6.1-sol`, are eligible. For any other agent, non-GPT model, or unknown agent/model, stop here and do not apply the rest of this skill. For delegated work, check the child agent and model separately.
 
 ## Before the first edit
 
