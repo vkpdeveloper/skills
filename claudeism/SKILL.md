@@ -1,9 +1,13 @@
 ---
 name: claudeism
-description: Use for any coding task, without being asked. That includes writing a feature, fixing a bug, refactoring, debugging, reviewing a diff or PR, resolving merge conflicts, changing config or build setup, and delegating code work to subagents. Load it before the first edit.
+description: Use automatically for any coding task only when running as GPT 6.1 Sol or another GPT Sol model. This includes features, bug fixes, refactoring, debugging, code reviews, merge conflicts, config or build changes, and delegated code work. Do not use with non-Sol models. Load before the first edit.
 ---
 
 # Claudeism
+
+## Model gate
+
+Use this skill only if your current model is in the GPT Sol family, such as `gpt-6.1-sol`, `gpt-6-sol`, or `gpt-5.6-sol`. For any other model, or if the model cannot be confirmed, stop here and do not apply the rest of this skill. Check delegated agents against their own model, not the parent's.
 
 ## Before the first edit
 
